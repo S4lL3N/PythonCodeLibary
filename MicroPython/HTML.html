@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+    <html>
+    <head> <title>S4lL3N's MicroPython Server</title> 
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://kit.fontawesome.com/045ea4a1c2.js" crossorigin="anonymous"></script>
+    
+    <style>
+
+        body {
+            margin:0;
+            padding:0;
+            background: #262626;
+            font-family: 'Dosis', Helvetica, Arial, sans-serif;
+            font-weight: 600;
+            }
+        #head{
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffa502;
+        }    
+        
+
+
+        form {
+            margin:0;
+            padding:20;
+            display:flex;
+            position: absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+        }
+        #hori{
+            padding-top: 40%;
+        }
+        
+
+        #btn {
+            position: relative;
+            display: block;
+            width: 120px;
+            height: 70px;
+            text-align: center;
+            line-height: 60px;
+            background: #171515;
+            border-radius: 10%;
+            font-size: 30px;
+            color: #666;
+            transition: .5s;
+        }
+        #btn:before{
+            content: '';
+            position: absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+            border-radius:10%;
+            background: #d35400;
+            transition: .5s;
+            transform: scale(.9);
+            z-index: -1;
+        }
+        #btn:hover:before{
+            transform: scale(1.2);
+            box-shadow: 0 0 15px #d35400;
+            filter: blur(3px);
+        }
+        #btn:hover{
+            color: #ffa502;
+            box-shadow: 0 0 15px #d35400;
+            text-shadow: 0 0 15px #d35400;
+        }
+
+    </style>
+ <h2 id = head>S4lL3N's MicroPython Server</h2></center>
+
+    </head>
+    <body>
+    
+    <link href='https://fonts.googleapis.com/css?family=Dosis:600' rel='stylesheet' type='text/css'>
+   
+    
+    
+    <form>
+
+    <div>
+     <ul>   
+         <ol>
+    <button id=btn name="RELAY" value="ON" type="submit">RELAY ON</button>
+    <div id= hori>
+    <button id=btn name="RELAY" value="OFF" type="submit">RELAY OFF</button><br><br>
+    </div>
+         </ol>
+    </ul>
+    </div>
+    <div>
+        <ul>
+    <button id=btn name="LED" value="ON_BLUE" type="submit">LED ON</button>
+    <div id=hori>
+    <button id=btn name="LED" value="OFF_BLUE" type="submit">LED OFF</button><br><br>
+    </div>
+    </ul>
+    </div>
+    <div>
+        <ul>
+    <button id=btn name="LED" value="ON_EX" type="submit">LED ON</button>
+    <div id=hori>
+    <button id=btn name="LED" value="OFF_EX" type="submit">LED OFF</button>
+    </div>
+        </ul>
+    </div>
+    </form>
+    </body>
+    </html>

@@ -1,0 +1,12 @@
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is DE7C-0C38
+
+ Directory of C:\Users\S4lL3\Documents\My_VS_Code
+
+12/19/2019  11:48 AM    <DIR>          .
+12/19/2019  11:48 AM    <DIR>          ..
+11/30/2019  11:12 PM    <DIR>          .vscode
+12/09/2019  04:52 PM    <DIR>          HTML_CSS
+12/19/2019  11:41 AM    <DIR>          Python
+               0 File(s)              0 bytes
+               5 Dir(s)  179,010,191,360 bytes free
