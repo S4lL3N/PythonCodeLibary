@@ -1,0 +1,14 @@
+           The Happy Gizzard            
+              Fine Dining               
+           03-17-2018 09:53
+            
+
+	Itemized List:
+	     Soda: ************2.55
+	     Soup: ************5.23
+	     Cake: ************8.89
+
+	Totals:
+	   Subtotal: ************16.67
+	        Tax: *************1.54
+	Grand total: ************18.21
