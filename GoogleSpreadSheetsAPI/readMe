@@ -1,0 +1,22 @@
+This project is to connect to the google sheets API read and writing data to google sheets using python.
+
+https://gspread.readthedocs.io/en/latest/user-guide.html#opening-a-spreadsheet
+
+Gdrive data:
+    EMAIL: projects4ll3n@gmail.com
+    PASS: Blaze12420
+
+
+***used the console.cloud.google account for APIs***
+GOOGLE DRIVE:
+    creds.json 
+    client email: ***from sheets share to this email.**** (s4ll3n@pythonspreadsheets-262217.iam.gserviceaccount.com)
+
+    
+
+
+Modules needed:
+    gspread
+    oauth2client
+
+
